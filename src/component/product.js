@@ -29,7 +29,7 @@ export default function Product() {
         const fetchAllItems = async () => {
             try {
                 // const response = await axios.get('http://localhost:8222/api/v1/products');
-                const response = await axios.get('http://PRODUCT-SERVICE:8222/api/v1/products');
+                const response = await axios.get('http://GATEWAY-SERVICE:8050/api/v1/products');
                 setProductList(response.data);
             } catch (error) {
                 console.error("Error fetching all items:", error);
