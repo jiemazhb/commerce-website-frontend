@@ -7,7 +7,7 @@ export default function ProductCategory({onSelectionChange}) {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get('http://localhost:8222/api/v1/products/categories');
+                const response = await axios.get('http://product-service:8222/api/v1/products/categories');
                 setCategories(Array.isArray(response.data) ? response.data : []);
             } catch (error) {
                 console.error("error fetching product: ", error);

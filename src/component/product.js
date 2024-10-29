@@ -28,7 +28,8 @@ export default function Product() {
     useEffect(() => {
         const fetchAllItems = async () => {
             try {
-                const response = await axios.get('http://localhost:8222/api/v1/products');
+                // const response = await axios.get('http://localhost:8222/api/v1/products');
+                const response = await axios.get('http://PRODUCT-SERVICE:8222/api/v1/products');
                 setProductList(response.data);
             } catch (error) {
                 console.error("Error fetching all items:", error);
@@ -42,8 +43,8 @@ export default function Product() {
     useEffect(() => {
 
         const url = selectCategory
-            ? `http://localhost:8222/api/v1/products/category?selectedCategory=${selectCategory}`
-            : 'http://localhost:8222/api/v1/products';
+            ? `http://PRODUCT-SERVICE:8222/api/v1/products/category?selectedCategory=${selectCategory}`
+            : 'http://PRODUCT-SERVICE:8222/api/v1/products';
 
         const fetchData = async () => {
             try {
