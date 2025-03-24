@@ -24,7 +24,8 @@ export default function Signup() {
         e.preventDefault(); 
     
         try {
-            const response = await axios.post('http://localhost:8222/api/v1/identity/register', formData);           
+            //const response = await axios.post('https://danny-portfolio.ngrok.app/api/v1/identity/register', formData);           
+            const response = await axios.post('http://localhost:8222/api/v1/identity/register', formData);       
             alert('Sign up successfully');
             window.location.href = '/'; 
         } catch (error) {

@@ -17,8 +17,8 @@ export default function Footer() {
 
 
           <ul className="list-unstyled list-py-1">
-            <li><a className="link-sm link-secondary" href="#"><i className="bi-geo-alt-fill me-1"></i> 153 Williamson Plaza, Maggieberg</a></li>
-            <li><a className="link-sm link-secondary" href="tel:1-062-109-9222"><i className="bi-telephone-inbound-fill me-1"></i> +1 (062) 109-9222</a></li>
+            <li><a className="link-sm link-secondary" href="#"><i className="bi-geo-alt-fill me-1"></i> 000 Lambert Ave, Los Angeles</a></li>
+            <li><a className="link-sm link-secondary" href="tel:1-062-109-9222"><i className="bi-telephone-inbound-fill me-1"></i> +1 (000) 000-0000</a></li>
           </ul>
 
 
@@ -31,7 +31,7 @@ export default function Footer() {
 
           <ul className="list-unstyled list-py-1 mb-0">
             <li><a className="link-sm link-secondary" href="#">About</a></li>
-            <li><a className="link-sm link-secondary" href="#">Careers <span className="badge bg-warning text-dark rounded-pill ms-1">We're hiring</span></a></li>
+            <li><a className="link-sm link-secondary" href="#">Careers</a></li>
             <li><a className="link-sm link-secondary" href="#">Blog</a></li>
             <li><a className="link-sm link-secondary" href="#">Customers <i className="bi-box-arrow-up-right small ms-1"></i></a></li>
             <li><a className="link-sm link-secondary" href="#">Hire us</a></li>

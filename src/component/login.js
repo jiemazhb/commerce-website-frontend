@@ -18,8 +18,8 @@ export default function Login() {
             email: email,  
             password: password   
         }
-        
-        try {
+
+        try {            
             const response = await axios.post('http://localhost:8222/api/v1/identity/login', userInfo);
 
             const { token, refreshToken } = response.data;

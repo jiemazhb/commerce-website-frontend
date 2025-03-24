@@ -16,7 +16,7 @@ function MainLayout() {
                     <div className='row'>
                         <Outlet /> {/* 这个 Outlet 将渲染匹配的子路由组件 */}
                     </div>
-
+                    <hr></hr>
                     {/* footer */}
                     <div className='row'>
                         <Footer />

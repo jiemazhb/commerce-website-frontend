@@ -28,8 +28,8 @@ export default function Product() {
     useEffect(() => {
         const fetchAllItems = async () => {
             try {
-                // const response = await axios.get('http://localhost:8222/api/v1/products');
                 const response = await axios.get('http://localhost:8222/api/v1/products');
+                //const response = await axios.get('https://danny-portfolio.ngrok.app/api/v1/products');
                 setProductList(response.data);
             } catch (error) {
                 console.error("Error fetching all items:", error);
@@ -62,7 +62,7 @@ export default function Product() {
     return (
         <div>
             <div className="row">
-                <div className="col-10 ">
+                <div className="col-12 col-lg-10">
                     <ProductCategory onSelectionChange={handleCategoryChange} />
 
                     {selectedProduct ? (
@@ -73,7 +73,7 @@ export default function Product() {
                     )}
 
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-lg-2">
                     <PlaceOrder productData={selectedProduct} />
                 </div>
             </div>
