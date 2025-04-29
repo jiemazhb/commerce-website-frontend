@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { ProductDetails, ProductList } from "..";
-import { useDispatch } from "react-redux";
+//import { useDispatch } from "react-redux";
 import { useCartActions, useProductAction } from "../../hooks";
 
 export default function ProductListContainer() {
-  const dispatch = useDispatch();
+  //const dispatch = useDispatch();
 
   const { handleAddToCart, setProductQuantity, quantity } = useCartActions();
   const {

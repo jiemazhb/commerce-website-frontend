@@ -2,7 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import Overview from "./Overview";
 import TechStack from "./TechStack";
-import { Box, Grid, useTheme } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import {IntroCard} from "../../components";
 
 export default function Introduction() {
