@@ -1,4 +1,4 @@
-import ProductCategory from "./ProductCategory";
+
 import ProductListContainer from "./ProductListContainer";
 import  ProductFilterPanel from "./ProductFilterPanel";
 import {useState} from "react";

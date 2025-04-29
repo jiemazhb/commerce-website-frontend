@@ -1,13 +1,11 @@
 import React from "react";
-import { Box } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { AnimatedText, UnderlineTitle } from "../../components";
 
 export default function TechStack() {
-  const theme = useTheme();
-  const isDarkMode = theme.palette.mode === "dark";
+  //const theme = useTheme();
+  //const isDarkMode = theme.palette.mode === "dark";
 
   const sentence =
     "Built with Java, Spring Boot, Docker, and MySQL to handle high concurrency efficiently. The architecture demonstrates the practical application of modern microservices.";

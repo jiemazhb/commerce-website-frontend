@@ -1,13 +1,13 @@
 import React from "react";
-import { Box } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
-import { Link } from "react-router-dom";
+
+//import { useTheme } from "@mui/material/styles";
+
 import { motion } from "framer-motion";
 import { AnimatedText, UnderlineTitle } from "../../components";
 
 export default function Overview() {
-  const theme = useTheme();
-  const isDarkMode = theme.palette.mode === "dark";
+  //const theme = useTheme();
+  //const isDarkMode = theme.palette.mode === "dark";
 
   const sentence =
     "This site presents a Java microservices project, covering core concepts from design to implementation. It offers insights into high concurrency, scalability, and reliability for learning and exchange.";

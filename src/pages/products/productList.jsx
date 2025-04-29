@@ -10,7 +10,6 @@ import {
   useTheme,
   IconButton,
   Tooltip,
-  Typography,
   Box,
 } from "@mui/material";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";

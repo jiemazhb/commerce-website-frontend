@@ -1,13 +1,13 @@
 import React from "react";
-import { Box } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
-import { Link } from "react-router-dom";
+
+//import { useTheme } from "@mui/material/styles";
+
 import { motion } from "framer-motion";
 import { AnimatedText, UnderlineTitle } from "../../components";
 
 export default function AboutMe() {
-  const theme = useTheme();
-  const isDarkMode = theme.palette.mode === "dark";
+  //const theme = useTheme();
+  //const isDarkMode = theme.palette.mode === "dark";
 
   const sentence =
     "I am a developer focused on building scalable applications. I constantly explore new tech to enhance my problem-solving skills, and this project showcases my ability to combine design and...";
