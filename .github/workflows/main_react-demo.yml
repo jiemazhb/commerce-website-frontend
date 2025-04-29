@@ -38,4 +38,5 @@ jobs:
         with:
           app-name: react-demo
           slot-name: production
-          package: ./build
+          package: ./dist
+          
