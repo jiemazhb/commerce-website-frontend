@@ -1,7 +1,8 @@
 
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import React, { useContext } from 'react'
 import { UserContext } from "../../contexts";
+
 
 export default function Logout({ userName }) {
   const { logout } = useContext(UserContext);
