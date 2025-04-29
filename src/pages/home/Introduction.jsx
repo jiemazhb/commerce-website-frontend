@@ -6,7 +6,7 @@ import { Box, Grid, useTheme } from "@mui/material";
 import {IntroCard} from "../../components";
 
 export default function Introduction() {
-  const theme = useTheme();
+ // const theme = useTheme();
   //const isDarkMode = theme.palette.mode === "dark";
 
   return (

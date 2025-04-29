@@ -15,13 +15,13 @@ export default function ProductListContainer() {
     selectedProduct,
     filterProductsByCategory,
   } = useProductAction();
-  
+
 // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (status === "idle") {
       filterProductsByCategory();
     }
-  }, [status, dispatch]);
+  }, [status, filterProductsByCategory]);
 
   return (
     <div>

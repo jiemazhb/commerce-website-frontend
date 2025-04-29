@@ -19,13 +19,16 @@ export default function Logout({ userName }) {
   return (
     <>
       <div className="dropdown my-n2">
-        <button className="btn btn-link d-inline-flex align-items-center dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button className="btn btn-link d-inline-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 
           Welcome {userName}
         </button>
         <ul className="dropdown-menu dropdown-menu-end">
-          <li><a className="dropdown-item" href="#">Account</a></li>
-          <li><a className="dropdown-item" href="#">Change password</a></li>
+          {/* <li><a className="dropdown-item" href="#">Account</a></li> */}
+          <li><Link className="dropdown-item" to="/account">Account</Link></li>
+          <li>
+              <Link className="dropdown-item" to="/changePsw">Change password</Link>
+          </li>
           <li>
             <hr className="dropdown-divider" />
           </li>
