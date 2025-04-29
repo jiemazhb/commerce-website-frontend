@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Typography, Link, Box, Divider, useTheme } from "@mui/material";
+import { Grid, Typography, Link, Box, Divider, useTheme } from "@mui/material";
 
 export default function Footer() {
   const theme = useTheme(); 

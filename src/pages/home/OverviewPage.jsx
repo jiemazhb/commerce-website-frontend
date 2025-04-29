@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Grid, Chip, Divider, Fade, Zoom } from "@mui/material";
+import { Box, Typography, Grid, Chip, Divider, Fade } from "@mui/material";
 import CodeIcon from "@mui/icons-material/Code";
 import StorageIcon from "@mui/icons-material/Storage";
 import CloudIcon from "@mui/icons-material/Cloud";

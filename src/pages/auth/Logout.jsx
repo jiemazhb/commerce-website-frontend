@@ -19,10 +19,10 @@ export default function Logout({ userName }) {
   return (
     <>
       <div className="dropdown my-n2">
-        <a className="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button className="btn btn-link d-inline-flex align-items-center dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
           Welcome {userName}
-        </a>
+        </button>
         <ul className="dropdown-menu dropdown-menu-end">
           <li><a className="dropdown-item" href="#">Account</a></li>
           <li><a className="dropdown-item" href="#">Change password</a></li>

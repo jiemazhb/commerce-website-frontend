@@ -7,7 +7,7 @@ import {IntroCard} from "../../components";
 
 export default function Introduction() {
   const theme = useTheme();
-  const isDarkMode = theme.palette.mode === "dark";
+  //const isDarkMode = theme.palette.mode === "dark";
 
   return (
     <Box sx={{ mt: 6, mb: 6}}> 

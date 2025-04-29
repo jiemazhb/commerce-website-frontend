@@ -15,8 +15,8 @@ import {useCartActions} from '../../hooks'
 
 export default function CartPage() {
   const navigate = useNavigate();
-  const {totalPrice, increase, decrease, remove, totalItems, items} = useCartActions()
-
+  //const {totalPrice, increase, decrease, remove, totalItems, items} = useCartActions()
+  const {totalPrice, increase, decrease, remove, items} = useCartActions()
   const handleCheckOut = () => {
     navigate("/checkout");
   };
